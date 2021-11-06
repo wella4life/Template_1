@@ -74,6 +74,14 @@ body {
 /* End Global Rules */
 /* Start of the code */
 
+@media (max-width: 767px) {
+  .header .links {
+    position: relative;
+    left: -120px;
+  }
+  }
+}
+
 .header {
   padding: 20px;
 }
@@ -201,6 +209,11 @@ body {
 
 /* End Landing-------------------------------------------------------------- */
 
+@media (max-width: 767px) {
+  .features .container {
+    width: 320px;
+  }
+}
 .features {
   padding-top: var(--padding);
   padding-bottom: var(--padding);
@@ -231,6 +244,16 @@ body {
 
 /* End Features------------------------------------------------------------- */
 
+@media (max-width: 767px) {
+.services .special-heading {
+  max-width: 400px; }
+.services .container {
+      width: 320px;
+}
+.services .container p {
+  max-width: 400px;
+}
+}
 .services {
   padding-top: var(--padding);
   padding-bottom: var(--padding);
@@ -298,6 +321,17 @@ body {
 
 /* End Services------------------------------------------------------------- */
 
+@media (max-width: 767px) {
+  .portfolio .special-heading {
+    max-width: 400px; }
+  .portfolio .container p {
+    max-width: 400px; }
+  .portfolio .portfolio-content .card {
+    height: 350px;
+    width: 385px; }
+  .portfolio .portfolio-content .card .info {
+    text-align: center; }
+}
 .portfolio {
   padding-top: var(--padding);
   padding-bottom: var(--padding);
@@ -330,6 +364,18 @@ body {
 
 /* End Portfolio-=---------------------------------------------------------- */
 
+@media (max-width: 767px) {
+  .about .special-heading {
+    max-width: 400px; }
+  .about .container p {
+    max-width: 400px; }
+  .about .about-content .image {
+    left: -50px; }
+  .about .about-content .text {
+    font-size: 15px;
+    width: 350px;
+  }
+}
 .About {
   padding-top: var(--padding);
   padding-bottom: calc(var(--padding) + 60px);
@@ -411,6 +457,17 @@ body {
 
 /* End About-=------------------------------------------------------------- */
 
+@media (max-width: 767px) {
+  .contact .special-heading {
+    max-width: 400px; }
+  .contact .container p {
+    max-width: 400px; }
+  .contact .info .link {
+    width: 402px; }
+  .contact .info .social {
+    width: 410px;
+  }
+}
 .contact {
   padding-top: var(--padding);
   padding-bottom: var(--padding);
