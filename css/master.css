@@ -50,7 +50,11 @@ body {
   margin-right: auto;
   margin: auto;
 }
-
+@media (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
