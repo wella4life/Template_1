@@ -52,22 +52,22 @@ body {
 }
 @media (max-width: 767px) {
   .container {
-    width: 540px;
+    max-width: 100%;
   }
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    max-width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    max-width: 100%;
   }
 }
 
@@ -77,11 +77,9 @@ body {
 @media (max-width: 767px) {
   .header .links {
     position: relative;
-    left: -120px;
-  }
+    max-width: 100%;
   }
 }
-
 .header {
   padding: 20px;
 }
@@ -211,7 +209,7 @@ body {
 
 @media (max-width: 767px) {
   .features .container {
-    width: 320px;
+    max-width: 100%;
   }
 }
 .features {
@@ -245,14 +243,15 @@ body {
 /* End Features------------------------------------------------------------- */
 
 @media (max-width: 767px) {
-.services .special-heading {
-  max-width: 400px; }
-.services .container {
-      width: 320px;
-}
-.services .container p {
-  max-width: 400px;
-}
+  .services .special-heading {
+    max-width: 100%;
+  }
+  .services .container {
+    max-width: 100%;
+  }
+  .services .container p {
+    max-width: 100%;
+  }
 }
 .services {
   padding-top: var(--padding);
@@ -323,14 +322,17 @@ body {
 
 @media (max-width: 767px) {
   .portfolio .special-heading {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .portfolio .container p {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .portfolio .portfolio-content .card {
-    height: 350px;
-    width: 385px; }
+    max-width: 100%;
+  }
   .portfolio .portfolio-content .card .info {
-    text-align: center; }
+    text-align: center;
+  }
 }
 .portfolio {
   padding-top: var(--padding);
@@ -366,14 +368,17 @@ body {
 
 @media (max-width: 767px) {
   .about .special-heading {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .about .container p {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .about .about-content .image {
-    left: -50px; }
+    max-width: 100%;
+  }
   .about .about-content .text {
     font-size: 15px;
-    width: 350px;
+    max-width: 100%;
   }
 }
 .About {
@@ -459,13 +464,16 @@ body {
 
 @media (max-width: 767px) {
   .contact .special-heading {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .contact .container p {
-    max-width: 400px; }
+    max-width: 100%;
+  }
   .contact .info .link {
-    width: 402px; }
+    max-width: 100%;
+  }
   .contact .info .social {
-    width: 410px;
+    max-width: 100%;
   }
 }
 .contact {
