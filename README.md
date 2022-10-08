@@ -1,6 +1,6 @@
 - Overview:
-  - [My First Template Look-Alike](#the-challenge)
-  - [https://wella4life.github.io/Template_1/](#links)
+  - [My First Template Look-Alike]
+  - [https://wella4life.github.io/Template_1/]
   - ![](images/Finished-Desktop-1.jpg)
   - ![](images/Finished-Desktop-2.jpg)
   - ![](images/Finished-Desktop-3.jpg)
